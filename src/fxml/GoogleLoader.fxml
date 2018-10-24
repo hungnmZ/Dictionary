@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="396.0" prefWidth="628.0"
+            style="-fx-background-color: white; -fx-border-color: #00EEAA; -fx-border-width: 5;"
+            xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="controller.GoogleController">
+    <children>
+        <JFXTextArea fx:id="GoogletextArea" focusColor="#00ffaa" layoutX="84.0" layoutY="84.0" prefHeight="287.0"
+                     prefWidth="255.0" style="-fx-border-color: #0f9;" unFocusColor="#00ffaa"/>
+        <JFXTextArea fx:id="GoogleTranslateTextArea" focusColor="#00ffaa" layoutX="346.0" layoutY="84.0"
+                     prefHeight="287.0" prefWidth="255.0" style="-fx-border-color: #0f9;" unFocusColor="#00ffaa"/>
+        <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true"
+                   preserveRatio="true">
+            <image>
+                <Image url="@../icon/Google-Translate-apk-free-download-1.png"/>
+            </image>
+        </ImageView>
+        <JFXButton fx:id="GooglesearchButton" contentDisplay="GRAPHIC_ONLY" layoutX="287.0" layoutY="319.0"
+                   onAction="#setGooglesearchButton" prefHeight="46.0" prefWidth="46.0" styleClass="buttoneMenu"
+                   stylesheets="@../style/StyleBuilder.css">
+            <graphic>
+                <ImageView fitHeight="91.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../icon/icons8-search-26.png"/>
+                    </image>
+                </ImageView>
+            </graphic>
+        </JFXButton>
+        <JFXButton fx:id="GooglespeakButton" contentDisplay="GRAPHIC_ONLY" layoutX="90.0" layoutY="319.0"
+                   onAction="#setGooglespeakButton" prefHeight="46.0" prefWidth="46.0" styleClass="buttoneMenu"
+                   stylesheets="@../style/StyleBuilder.css">
+            <graphic>
+                <ImageView fitHeight="91.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../icon/icons8-speaker-52.png"/>
+                    </image>
+                </ImageView>
+            </graphic>
+        </JFXButton>
+        <JFXButton fx:id="GooglespeakButton2" contentDisplay="GRAPHIC_ONLY" layoutX="352.0" layoutY="319.0"
+                   onAction="#setGooglespeakButton" prefHeight="46.0" prefWidth="46.0" styleClass="buttoneMenu"
+                   stylesheets="@../style/StyleBuilder.css" text="Button">
+            <graphic>
+                <ImageView fitHeight="91.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../icon/icons8-speaker-52.png"/>
+                    </image>
+                </ImageView>
+            </graphic>
+        </JFXButton>
+        <JFXButton fx:id="Home" contentDisplay="GRAPHIC_ONLY" layoutX="549.0" layoutY="319.0" onAction="#ReturnHome"
+                   prefHeight="46.0" prefWidth="46.0" styleClass="buttoneMenu" stylesheets="@../style/StyleBuilder.css"
+                   text="Button">
+            <graphic>
+                <ImageView fitHeight="91.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../icon/icons8-home-26.png"/>
+                    </image>
+                </ImageView>
+            </graphic>
+        </JFXButton>
+        <JFXComboBox fx:id="Box1" focusColor="#00ff99" layoutX="84.0" layoutY="26.0" prefHeight="46.0" prefWidth="255.0"
+                     style="-jfx-focus-color: #00ffaa;" styleClass="list-cell" stylesheets="@../style/StyleBuilder.css"
+                     unFocusColor="#00ff99"/>
+        <JFXComboBox fx:id="Box2" focusColor="#00ff99" layoutX="346.0" layoutY="26.0" prefHeight="46.0"
+                     prefWidth="255.0" styleClass="list-cell" stylesheets="@../style/StyleBuilder.css"
+                     unFocusColor="#00ff99"/>
+    </children>
+</AnchorPane>

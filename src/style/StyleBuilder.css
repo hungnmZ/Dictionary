@@ -1,0 +1,111 @@
+#textFieldSearch {
+    -fx-border-width: 0.5px;
+    -fx-border-color: none;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 100;
+    -fx-background-color: #eee;
+    -fx-font-size: 15px;
+    -fx-padding: 5px;
+    -fx-font-weight: 600;
+    -fx-font-family: 'Open-Sans, Arial';
+}
+
+.tab {
+    -fx-background-color: #0f9;
+}
+
+.buttonTab {
+    -fx-background-color: none;
+}
+
+.buttonTab:hover {
+    -fx-background-color: #00EEAA;
+}
+
+.buttoneMenu {
+    -fx-background-color: transparent;
+    -fx-background-radius: 100;
+}
+
+.buttoneMenu:hover {
+    -fx-background-color: #eee;
+}
+
+.searchButton {
+    -fx-fill: #0f9;
+}
+
+.searchButton:hover {
+    -fx-fill: black;
+}
+
+.cancelButton {
+    -fx-background-color: #0f9;
+    -fx-background-radius: 100;
+
+}
+
+.cancelButton:hover {
+    -fx-background-color: red;
+}
+
+.list-cell {
+    -fx-background-color: white;
+}
+
+.list-cell:filled:selected {
+    -fx-background-color: #0EA;
+    -fx-text-fill: white;
+}
+
+.list-view {
+    -fx-background-color: transparent;
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: #0f8;
+    -fx-text-fill: white;
+}
+
+.list-cell {
+    -fx-text-fill: black;
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical {
+    -fx-background-color: #eee;
+    -fx-background-radius: 100;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #bbb;
+    -fx-background-radius: 100;
+}
+
+
+
+
+.tree-table-view{
+    -fx-tree-table-color: #0f9
+}
+
+.tree-table-view:focused .tree-table-row-cell:selected {
+    -fx-background-color: #0f9;
+}
+
+.tree-table-view:focused .tree-table-row-cell:selected .tree-table-cell{
+    -fx-text-fill: white;
+}
+
+
+.tree-table-view:focused .tree-table-row-cell:hover {
+    -fx-background-color: #0ea
+}
+.tree-table-view:focused .tree-table-row-cell:hover .tree-table-cell{
+    -fx-text-fill: white;
+}
+
+
+.tree-table-view .tree-table-cell{
+    -fx-alignment: center;
+}
